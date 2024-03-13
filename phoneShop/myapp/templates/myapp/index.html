@@ -1,28 +1,8 @@
 {% extends './base.html' %}
-{% load static %}
+
+
 
 {% block content %}
-    <nav class="bg-white shadow-lg">
-      <div class="max-w-6xl mx-auto px-4">
-        <div class="flex justify-between">
-          <div class="flex space-x-7">
-            <div>
-              <a href="#" class="flex items-center px-2 py-4">
-              <img class="h-8 w-8" src="{% static 'myapp/img/shop_img.png' %}" alt="logo">
-              <span class="text-gray-500 font-semibold text-xl">Pro Shop</span>
-            </a>
-          </div>
-
-            <div class="items-center flex space-x-1">
-              <a href="#" class="py-4 px-2 text-gray-500 font-semibold border-b-2 border-green-500">Home</a>
-              <a href="#" class="py-4 px-2 text-gray-500 font-semibold">About</a>
-              <a href="#" class="py-4 px-2 text-gray-500 font-semibold">Contacts</a>
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
     <h1>This is index templates</h1>
     
     <h4>
@@ -32,7 +12,7 @@
         <a>
         {% endfor %}
     </h4>
-    {% endblock content %}
+{% endblock content %}
 
         
 
