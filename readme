@@ -1,0 +1,11 @@
+runserver
+для запуска сервера ls - проверка положения  
+-cd phoneShop / python3 manage.py runserver
+
+run tailwind
+для запуска tailwind ls - проверка положения 
+ -cd phoneShop / npm run build
+
+
+продвижение создания 
+
