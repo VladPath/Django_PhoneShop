@@ -29,10 +29,23 @@ run tailwind
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
 
-в urls
+в phoneShop/urls
 from django.conf.urls.static import static
 
-urlpatterns += static
+from django.conf import settings
 
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+связываем настройки с помощью python3 manage.py makemigrations and migrate
 
+в панеле админа появилась возможность добавлять фотографии к экземплярам телефонов 
+добавляем их в файле html с помощью             
+<img src="{{item.image.url}}" alt="">
 
+                урок 16
+
+корректируем стили для main
+сетка общая  - <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 gap-3">
+для элементов <div class="rounded overflow-hidden shadow-lg">
+
+                урок 17
+                
