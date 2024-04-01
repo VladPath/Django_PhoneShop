@@ -7,9 +7,9 @@ run tailwind
  -cd phoneShop / npm run build
 
 
-продвижение создания сайта 
+продвижение создания моего сайта 'PHONE SHOP'
 
-                14 урок
+                14 шаг
 
 объединение html в файле бейз для избежания копирования кода 
 создавая в базе стили и разметку мы переносим ее как шаблон в остальные файлы 
@@ -20,7 +20,7 @@ run tailwind
 создание файла navbar.html - хранение кода навбара в этом файле и связка в базу с помощью 
     {% include "./navbar.html" %}
 
-                урок 15 
+                шаг 15 
 
 добавление фотографий в джанго 
 в файле моделс добавляем  в класс myproducts / image = models.ImageField(blank=True, upload_to='images')
@@ -41,11 +41,11 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 добавляем их в файле html с помощью             
 <img src="{{item.image.url}}" alt="">
 
-                урок 16
+                шаг 16
 
 корректируем стили для main
 сетка общая  - <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 gap-3">
 для элементов <div class="rounded overflow-hidden shadow-lg">
 
-                урок 17
+                шаг 17
                 
