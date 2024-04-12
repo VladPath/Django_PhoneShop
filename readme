@@ -1,3 +1,6 @@
+<video src='https://www.youtube.com/watch?v=iGtZHDOq4E4' width=180/>
+
+
 runserver
 для запуска сервера ls - проверка положения  
 -cd phoneShop / python3 manage.py runserver
