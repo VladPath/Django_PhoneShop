@@ -1,4 +1,4 @@
-https://github.com/VladPath/Django_PhoneShop/assets/146530026/870fe85e-0692-4ae7-b410-a0eb4b3b61bd
+https://github.com/VladPath/Django_PhoneShop/assets/146530026/14a05635-d31c-42e9-88bc-850bd78c20b2
 
 runserver
 для запуска сервера ls - проверка положения  
